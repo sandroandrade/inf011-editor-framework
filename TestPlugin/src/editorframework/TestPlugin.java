@@ -26,7 +26,7 @@ public class TestPlugin implements IPlugin {
             });
 
         core.getUIController().addMenuItem("Help", "About");
-        System.out.println(core.getUIController().addMenuItem("Help", "About"));        return true;
+        return true;
     }
     
 }
